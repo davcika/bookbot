@@ -13,6 +13,7 @@ def count_letters(text):
 
 def pretty_sort(dict_s):
     sorted_dict = dict(sorted(dict_s.items(), key=lambda item:item[1], reverse=True))
+    return sorted_dict
     
 def pretty_print(path, word_count, sorted_dict):
     print("============ BOOKBOT ============")

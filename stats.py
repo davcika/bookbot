@@ -8,5 +8,5 @@ def count_letters(text):
         if i in mydict:
             mydict[i] += 1
         else:
-            mydict[i] = 0
+            mydict[i] = 1
     return mydict

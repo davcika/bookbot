@@ -8,7 +8,7 @@ def get_book_text(path):
 def main():
     if(len(sys.argv) != 2):
         print("Usage: python3 main.py <path_to_book>")
-        sys.exit()
+        sys.exit(1)
     
     path = sys.argv[1]
     book_text = get_book_text(path)
